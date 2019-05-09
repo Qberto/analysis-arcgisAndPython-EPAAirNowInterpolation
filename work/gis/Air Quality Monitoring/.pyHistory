@@ -1,0 +1,5 @@
+﻿from datetime import date, timedelta
+yesterday = date.today() - timedelta(1)
+yesterday
+date_string = yesterday.strftime('%Y%m%d')+"04"
+date_string
